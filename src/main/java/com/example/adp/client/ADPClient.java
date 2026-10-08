@@ -58,8 +58,8 @@ public class ADPClient {
 
         // 追加自定义变量
         Map<String, String> customVariables = new HashMap<>();
-        customVariables.put("userName", "guest");
-        customVariables.put("phoneNumber", "0000");
+        customVariables.put("userName", "man");
+        customVariables.put("phoneNumber", "1111");
         Content customVariablesContent = new Content();
         customVariablesContent.setType("custom_variables");
         customVariablesContent.setCustomVariables(customVariables);
