@@ -1,0 +1,17 @@
+# ADP Chat Client - 配置示例
+
+# 接口地址（默认值，一般不需要修改）
+adp.api.url=https://wss.lke.cloud.tencent.com/adp/v2/chat
+
+# ⚠️ 重要：请将下面的 AppKey 替换为您在ADP平台获取的真实AppKey
+# 获取方式：
+# 1. 登录腾讯云ADP平台
+# 2. 进入应用管理
+# 3. 找到已发布的应用
+# 4. 点击"调用"按钮
+# 5. 在"调用信息"窗口复制AppKey
+adp.app.key=YOUR_APP_KEY_HERE
+
+# 请求超时配置（毫秒）
+adp.request.timeout=30000
+adp.request.read.timeout=60000
